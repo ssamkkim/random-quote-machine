@@ -1,0 +1,80 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+
+  #quote-box {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    max-width: 600px;
+
+    * {
+      margin: 5px;
+    }
+    
+    #text {
+      text-align: center;
+      word-wrap: break-word;
+    }
+
+    #new-quote {
+      padding: 2px;
+    }
+  
+    #author {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    .bottom-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      margin-top: 10px;
+      .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+      }
+      #twitter {
+        color: #1DA1F2;
+      }
+      #random:hover {
+        cursor: pointer;
+      }
+      #random {
+        width: 50px;
+        outline: none;
+        border: none;
+        background: none;
+      }
+
+    }
+
+    
+  }
+  
+  
+
